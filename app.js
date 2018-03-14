@@ -10,7 +10,6 @@ function LunchCheckController($scope) {
   $scope.checkAmount = function () {
     var msg = checkFoodAmount($scope.input);
     $scope.message = msg;
-    return "Yaakov likes to eat healthy snacks at night!";
   };
 }
 function checkFoodAmount(str) {
